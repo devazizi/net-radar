@@ -1,0 +1,9 @@
+root = "."
+tmp_dir = "cmd/tmp"
+
+[build]
+cmd = "go build -o ./cmd/tmp/main ./cmd/main.go"
+args_bin = ["/home/ali/Documents/development/projects/unchained-proxy/config.yml"]
+
+bin = "cmd/tmp/main"
+full_bin = "sudo CONFIG_PATH=/home/ali/Documents/development/projects/net-radar/config.yaml ./cmd/tmp/main"

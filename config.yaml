@@ -1,0 +1,18 @@
+dns_servers:
+- 8.8.8.8
+- 1.1.1.1
+- 9.9.9.9
+- 185.142.156.235
+http_targets:
+- arvancloud.ir
+- yjc.ir
+- wikipedia.com
+- google.com
+- digikala.com
+- map.ir
+icmp_targets:
+- 8.8.8.8
+- 1.1.1.1
+- 185.142.156.236
+domain: docker.io
+interval_seconds: 10

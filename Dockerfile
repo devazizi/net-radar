@@ -20,8 +20,8 @@ WORKDIR /
 COPY --from=builder /app/net-radar /app/net-radar
 
 ENV GIN_MODE release
-RUN chmod +x /app/proxy
+RUN chmod +x /app/net-radar
 
 EXPOSE 3000
 
-ENTRYPOINT ["/app/proxy"]
+ENTRYPOINT ["/app/net-radar"]
